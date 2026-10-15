@@ -1,0 +1,10 @@
+{
+  "appId": "app.violetdusk.habits",
+  "appName": "Violet Dusk Habits",
+  "webDir": "dist",
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#7C5CFF"
+    }
+  }
+}

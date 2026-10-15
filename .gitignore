@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output (regenerate: npm run build && npx cap sync android)
+dist/
+
+# Local app / IDE config
+.freebuff/
+.idea/
+*.iml
+
+# Android generated assets + build artifacts
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/capacitor.build.gradle
+*.apk
+*.aab
+
+# Logs & OS junk
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
